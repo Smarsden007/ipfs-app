@@ -1,8 +1,8 @@
 import React from "react";
-import test from './../media/background.png'
+
 export const Hero = () => {
   return (
-    <div className="flex flex-col justify-center w-full p-10 bg-gradient-to-b from-pink-600 to-blue-200" style={{ backgroundImage: "url(./../media/background.png)", backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
+    <div className="flex flex-col justify-center w-full p-10 bg-gradient-to-b from-pink-600 to-blue-200">
       <div className="w-full mx-auto">
         <div className="mx-auto text-left w-7/12">
           <h1
